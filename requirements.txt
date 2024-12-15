@@ -1,5 +1,5 @@
 fastapi 
 uvicorn
 pymongo
-langchain-grok
+langchain-groq
 langchain
