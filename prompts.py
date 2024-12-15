@@ -43,7 +43,6 @@ Here is the ful claim and municipality name:
 # Transcript/ Translate
 
 # mongodb+srv://alabaganne:ala50101959@cluster0.xga5n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-import pandas as pd
 
 category_prompt = """You are an expert municipal claim classifier. Your task is to analyze and categorize incoming claims into the following predefined municipal committee domains:
 
