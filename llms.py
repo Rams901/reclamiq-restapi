@@ -3,7 +3,6 @@ from typing import List
 
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field
 from langchain_groq import ChatGroq
 from dotenv   import load_dotenv
