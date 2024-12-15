@@ -9,12 +9,14 @@ from bson.objectid import ObjectId
 import os
 from llms import *
 from groq import Groq
+from dotenv import load_env
 
-
+load_env()
 # MongoDB setup
-MONGO_URI = "mongodb+srv://alabaganne:ala50101959@cluster0.xga5n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DATABASE_NAME = "my_database"
-COLLECTION_NAME = "my_collection"
+MONGO_URI = os.env['MONGO_URI']
+DATABASE_NAME = "claims_db"
+COLLECTION_NAME = "municipal_claims"
+
 
 client = pymongo.MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
