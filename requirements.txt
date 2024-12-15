@@ -3,3 +3,4 @@ uvicorn
 pymongo
 langchain-groq
 langchain
+python-multipart
