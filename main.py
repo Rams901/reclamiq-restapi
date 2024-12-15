@@ -8,9 +8,8 @@ import pymongo
 from bson.objectid import ObjectId
 import os
 from llms import *
-from dotenv   import load_dotenv
 from groq import Groq
-load_dotenv()
+
 
 # MongoDB setup
 MONGO_URI = "mongodb+srv://alabaganne:ala50101959@cluster0.xga5n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
